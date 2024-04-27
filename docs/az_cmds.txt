@@ -1,0 +1,5 @@
+az login
+az account list -o table
+az account set --subscription c203eadf-77bf-423e-aa31-72c1b90e79b8
+az webapp deploy --resource-group rg-app-svc-1 --name ak-app-1 --src-path .\azuredemo-0.0.1-SNAPSHOT.zip
+
