@@ -21,7 +21,7 @@ ext {
 
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web'
-	implementation 'com.azure.spring:spring-cloud-azure-starter'
+//	implementation 'com.azure.spring:spring-cloud-azure-starter'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
 
