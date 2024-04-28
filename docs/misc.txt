@@ -1,1 +1,8 @@
 java -Dserver.port=80 -jar /home/site/wwwroot/azuredemo-0.0.1-SNAPSHOT.jar
+
+###########
+ Running command: java -cp /home/site/wwwroot/app.jar:/usr/local/appservice/lib/azure.appservice.jar:
+ -Djava.util.logging.config.file=/usr/local/appservice/logging.properties -Dfile.encoding=UTF-8
+ -Dserver.port=80 -XX:ErrorFile=/home/LogFiles/java_error_ak-sboot-1_lw0sdlwk0000OF_%p.log
+  -XX:+CrashOnOutOfMemoryError -XX:+HeapDumpOnOutOfMemoryError
+   -XX:HeapDumpPath=/home/LogFiles/java_memdump_ak-sboot-1_lw0sdlwk0000OF.log -Duser.dir=/home/site/wwwroot

@@ -1,3 +1,2 @@
 {
-  "connectionString": "InstrumentationKey=263810f3-49a6-4dc1-954d-7a8deb31aa70;IngestionEndpoint=https://eastus-8.in.applicationinsights.azure.com/;LiveEndpoint=https://eastus.livediagnostics.monitor.azure.com/;ApplicationId=81f23619-85bf-4f82-9ce8-0d15b21719c0"
 }
